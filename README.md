@@ -5,11 +5,22 @@ This project is a graduation project for the **National Telecommunication Instit
 ## Project Overview
 
 The PDF Quiz & Summary Generator allows users to upload PDF documents and automatically generate:
-
 * **Detailed Summaries**: Concise summaries of the PDF content
 * **Interactive Quizzes**: Multiple-choice questions with explanations based on document content
 
 The application features a responsive UI with light/dark mode support and performance optimizations for efficient processing.
+
+## Contributors
+
+This project was developed under the guidance of:
+- **Eng. Ahmed Ali** (Mentor)
+
+Project Engineers:
+- Eng. Ahmed M. Fayad
+- Eng. Mohammad Abdelhay
+- Eng. Youssef Bedeir
+- Eng. Ahmed Ammar
+- Eng. Amr Elnashar
 
 ## Features
 
@@ -22,34 +33,36 @@ The application features a responsive UI with light/dark mode support and perfor
 ## Installation
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/Ahmed-M-Fayad/PDF-summary-quiz-generator.git
-   cd PDF-summary-quiz-generator
-   ```
+
+```bash
+git clone https://github.com/Ahmed-M-Fayad/PDF-summary-quiz-generator.git
+cd PDF-summary-quiz-generator
+```
 
 2. **Install Python Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   Requirements include streamlit, PyPDF2, requests, and python-dotenv.
+
+```bash
+pip install -r requirements.txt
+```
+
+Requirements include streamlit, PyPDF2, requests, and python-dotenv.
 
 3. **Install and Configure Ollama**
-   * Download from [https://ollama.com/](https://ollama.com/)
+   * Download from https://ollama.com/
    * Pull the model: `ollama pull llama3:latest`
    * Start the server: `ollama serve`
 
 ## Usage
 
 1. **Run the Streamlit App**
-   ```bash
-   streamlit run app.py
-   ```
 
-2. **Access the Application**
-   Open your browser to `http://localhost:8501`
+```bash
+streamlit run app.py
+```
 
-3. **Upload a PDF**
-   Use the file uploader on the homepage to select a PDF document
+2. **Access the Application** Open your browser to `http://localhost:8501`
+
+3. **Upload a PDF** Use the file uploader on the homepage to select a PDF document
 
 4. **Generate Content**
    * Navigate to the Summary tab and click "Generate Summary"
@@ -61,7 +74,6 @@ Note: Ensure the Ollama server is running during application use.
 ## About the NTI-Huawei ETA Course
 
 The Artificial Intelligence course offered by NTI in collaboration with Huawei developed my skills in:
-
 * Python programming for AI development
 * Data analysis techniques and machine learning
 * Deep learning models and AI frameworks
